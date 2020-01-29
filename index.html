@@ -1,9 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
 
-</body>
+<html lang="es">
+  	<head>
+   		<meta charset="utf-8">
+		<meta name="viewport" content="width =device-width, user-scalable=no">
+		<title>Estudiantes</title>
+    	<link rel="stylesheet" href="css/estilos.css">
+  	</head>
+
+   	<body class="container-fluid">
+	    <header class="col-12">
+        	<h1 class="text-center">Evaluación de Estudiantes</h1>
+    	</header>
+	    <section class="container contenedor">
+    		<div class="col-12">
+      			<h4 class="text-left text-muted">Formulario de Notas</h4><br>
+      			<div class="col-12">
+        			<div class="row">
+          				<div class="col-12">
+            				<table class="table">
+              					<thead class="thead-dark">
+                					<tr class="active">
+                  						<th><b>Código</b></th>
+                  						<th><b>Nombre</b></th>
+                  						<th><b>Nota</b></th>
+                					</tr>
+            					</thead>
+              				</table>
+          				</div>
+        			</div>
+        			<br>
+        			<div class="row">
+          				<div class="form-group col-12 text-center">
+            				<button class="btn btn-primary" type="button" name="btnProcesar1" onclick="mostrarAlumnos()">Mostrar Alumnos</button>
+                      		<button class="btn btn-primary" type="button" name="btnProcesar2" onclick="calcularPromedio()">Calcular Promedio</button>
+            				<button class="btn btn-primary" type="button" name="btnProcesar3" onclick="calcularNotaMayor()">Calcular Nota Mayor</button>
+            				<button class="btn btn-primary" type="button" name="btnProcesar4" onclick="calcularNotaMenor()">Calcular Nota Menor</button>
+          				</div>
+        			</div>
+        				<br>
+        				<br>	
+        			<div class="row">
+          				<div class="col-12">
+            				<p id="NotaPromedio"></p>
+          				</div>
+          				<div class="col-12">
+            				<p id="NotaMayor"></p>
+          				</div>
+          				<div class="col-12">
+            				<p id="NotaMenor"></p>
+          				</div>
+        			</div>
+        			<br>
+      			</div>
+		    </div>
+    	</section>
+	    <script type="text/javascript" src="js/app.js"></script>
+	</body>
 </html>
