@@ -96,3 +96,7 @@ var estudiantes = [
     	}
         document.getElementById("NotaMenor").innerHTML = estudianteNotaMenor;
     }
+
+    function evento_onload(){
+                alert("Bienvenido a nuestro formulario de Notas de Estudiantes");
+    }
