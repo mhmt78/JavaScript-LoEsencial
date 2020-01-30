@@ -7,38 +7,36 @@
 		<title>Estudiantes</title>
     	<link rel="stylesheet" href="css/estilos.css">
   	</head>
-
    	<body class="container-fluid">
 	    <header class="col-12">
-        	<h1 class="text-center">Evaluación de Estudiantes</h1>
+        	<h1>Evaluación de Estudiantes</h1>
     	</header>
 	    <section class="container contenedor">
     		<div class="col-12">
-      			<h4 class="text-left text-muted">Formulario de Notas</h4><br>
+      			<h4>Formulario de Notas</h4><br>
       			<div class="col-12">
         			<div class="row">
           				<div class="form-group col-12 text-center">
             				<button class="btn btn-primary" type="button" name="btnProcesar1" onclick="mostrarEstudiantes()">Mostrar Estudiantes</button>
                       		<button class="btn btn-primary" type="button" name="btnProcesar2" onclick="calcularPromedio()">Calcular Promedio</button>
-            				<button class="btn btn-primary" type="button" name="btnProcesar3" onclick="calcularNotaMayor()">Calcular Nota Mayor</button>
-            				<button class="btn btn-primary" type="button" name="btnProcesar4" onclick="calcularNotaMenor()">Calcular Nota Menor</button>
+            				<button class="btn btn-primary" type="button" name="btnProcesar3" onclick="calcularNotaMayor()">Nota Mayor</button>
+            				<button class="btn btn-primary" type="button" name="btnProcesar4" onclick="calcularNotaMenor()">Nota Menor</button>
           				</div>
         			</div>
-        				<br>
         				<br>
               <div class="row">
                   <div class="col-12">
                     <table class="table">
-                        <thead class="thead-dark">
+                        <thead>
                           <tr class="active">
                               <th><b>Código</b></th>
                               <th><b>Nombre</b></th>
                               <th><b>Nota</b></th>
                           </tr>
-                      </thead>
-                      <tbody id="Estudiantes">
-                      </tbody>
-                      </table>
+                        </thead>
+                        <tbody id="Estudiantes">
+                        </tbody>
+                    </table>
                   </div>
               </div>
               <br>

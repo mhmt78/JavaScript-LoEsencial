@@ -1,5 +1,5 @@
-//variables de alumnos
-var alumnos = [
+//variables de estudiantes
+var estudiantes = [
     {
         "codigo": "001",
     	"nombre": "Miguel Mendoza",
@@ -45,7 +45,7 @@ var alumnos = [
 
     //Funciones del JavaScript
     function calcular() {
-    	var calculo = this.alumnos;
+    	var calculo = this.estudiantes;
     	return calculo;
     }
 
@@ -77,7 +77,7 @@ var alumnos = [
     	var calculo = calcular();
     	for (var i=0; i<calculo.length; i++) {
 			if (calculo[i].nota > notaMayor) {
-				estudianteNotaMayor = "El Estudiante "+calculo[i].nombre+"tiene la <b>mayor nota ("+calculo[i].nota+")</b>";
+				estudianteNotaMayor = "El Estudiante "+calculo[i].nombre+" tiene la <b>mayor nota ("+calculo[i].nota+")</b>";
 				notaMayor = calculo[i].nota;
 			}
     	}

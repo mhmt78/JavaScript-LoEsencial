@@ -1,0 +1,44 @@
+body { 
+	text-align:center; 
+    background-color: #3CB371; 
+} 
+
+table {
+	display: inline;
+	width: 100%;
+  	font-size: 1.2em;
+}
+
+th {
+	background: #B22222;
+	color: #F5F5F5;
+	font-size: 1.3em;
+}
+
+tr {
+	background: #F5F5F5;
+}
+
+td {
+	text-align: justify;
+}
+
+h1 {
+	text-shadow: gray 6px 0;
+	font-size: 3em;
+	color: #191970;
+}
+
+h4 {
+	font-size: 2em;
+	color: #191970;
+}
+
+p {
+	font-size: 1.2em;
+	/*background-color: lightblue;*/
+}
+
+button {
+	font-size: 1.2em;
+}
